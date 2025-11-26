@@ -1,0 +1,75 @@
+# ===========================
+# GENERAL
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ===========================
+# ENVIRONMENT + SECRETS
+# ===========================
+env/
+*.env
+.env.*
+secrets/
+.key
+*.pem
+
+# ===========================
+# PYTHON VENV / CONDA
+# ===========================
+venv/
+.venv/
+env/
+*/env/
+*.egg-info/
+.eggs/
+
+# ===========================
+# AIRFLOW
+# ===========================
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/logs/
+.airflow/
+airflow/*.pid
+
+# ===========================
+# DBT
+# ===========================
+dbt/crypto_dbt/target/
+dbt/crypto_dbt/logs/
+dbt/crypto_dbt/dbt_packages/
+
+# ===========================
+# TERRAFORM
+# ===========================
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# ===========================
+# WINDOWS JUNK
+# ===========================
+*.lnk
+
+# ===========================
+# JUPYTER NOTEBOOKS
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# LOGS
+# ===========================
+logs/
+*/logs/
